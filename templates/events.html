@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+{% for event in events %}
+{{ event.event_name }}<br>
+{{ event.event_description }}<br>
+{{ event.location }}<br>
+{{ event.meet_point }}<br>
+{{ event.date_of_event }}<br>
+{{ event.language }}<br>
+{{ event.free_event }}<br>
+{{ event.created_by }}<br>
+{% endfor %}
+{% endblock %}

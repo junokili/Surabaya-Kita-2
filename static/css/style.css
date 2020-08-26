@@ -1,0 +1,24 @@
+body {
+    font: #aaaaaa;
+}
+
+p {
+    padding: 10px 25px 10px;
+}
+
+#sby-kita {
+    font-size: 44px;
+    margin-left: 20px;
+    text-shadow: 2px 2px #aaaaaa;
+}
+
+.nav-extended {
+    min-height: 85px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+
+#search-bar {
+    max-height: 85px;
+    padding-left: 40px;
+}
